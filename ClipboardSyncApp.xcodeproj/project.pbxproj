@@ -1,1 +1,2 @@
-// Simplified dummy pbxproj - not a full Xcode file
+// ! This placeholder is here to keep the project structure valid
+// This needs to be generated from real Xcode to properly build

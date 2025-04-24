@@ -1,1 +1,0 @@
-// Dummy project file to make Codemagic recognize Xcode project

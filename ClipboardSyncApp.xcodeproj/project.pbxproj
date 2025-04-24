@@ -1,1 +1,1 @@
-// Dummy Xcode project configuration
+// Simplified dummy pbxproj - not a full Xcode file

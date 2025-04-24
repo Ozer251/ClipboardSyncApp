@@ -8,7 +8,6 @@ struct ContentView: View {
             Text(message)
                 .multilineTextAlignment(.center)
                 .padding()
-            
             Button("Send Clipboard to PC") {
                 sendClipboard()
             }
@@ -25,13 +24,11 @@ struct ContentView: View {
                 message = "Invalid server URL"
                 return
             }
-
             var request = URLRequest(url: url)
             request.httpMethod = "POST"
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
             let json = ["text": clipboardText]
             request.httpBody = try? JSONSerialization.data(withJSONObject: json)
-
             URLSession.shared.dataTask(with: request) { _, _, _ in
                 DispatchQueue.main.async {
                     message = "Clipboard sent!"

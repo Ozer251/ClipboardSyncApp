@@ -1,2 +1,10 @@
 // !$*UTF8*$!
-// This file was created to simulate Xcode 15 project format for Codemagic compatibility.
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
+  };
+
+  rootObject = 000000000000000000000000;
+}

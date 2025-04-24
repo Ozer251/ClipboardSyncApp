@@ -8,7 +8,7 @@
     </BuildActionEntries>
   </BuildAction>
   <TestAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB"/>
-  <LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES">
+  <LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
     <BuildableProductRunnable>
       <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="ClipboardSyncApp" BuildableName="ClipboardSyncApp.app" BlueprintName="ClipboardSyncApp" ReferencedContainer="container:ClipboardSyncApp.xcodeproj"/>
     </BuildableProductRunnable>
